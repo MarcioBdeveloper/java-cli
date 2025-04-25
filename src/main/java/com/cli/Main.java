@@ -26,15 +26,3 @@ public class Main {
         }
     }
 }
-
-
-// try (BufferedReader reader = (args.length > 0) ? new BufferedReader(new FileReader(args[0])) : new BufferedReader(new InputStreamReader(System.in))) {
-//String line;
-//                while ((line = reader.readLine()) != null && !line.isEmpty()) {
-//List<OperationInput> inputData = JsonHandler.readJson(line);
-//List<OperationOutput> outputData = CheckOperation.check(inputData);
-//                    System.out.println(JsonHandler.writeJson(outputData));
-//        }
-//        } catch (IOException e) {
-//        e.printStackTrace();
-//            }
